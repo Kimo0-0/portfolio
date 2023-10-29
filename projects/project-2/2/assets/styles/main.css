@@ -1,0 +1,336 @@
+@font-face {
+  font-family: "Expo Arabic";
+  src: url(EXPO\ ARABIC\ SEMIBOLD.TTF);
+}
+body {
+  font-family: "Expo Arabic";
+}
+
+p {
+  padding: 20px;
+  color: #697e79;
+}
+svg {
+  width: 50px;
+}
+.navbar-brand img {
+  max-height: 42px;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+}
+.collapse {
+  justify-content: center;
+}
+.btn-703edb {
+  background-color: #703edb;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 6px 25px 10px;
+}
+.btn-703edb:hover {
+  background-color: #703edb;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 6px 25px 10px;
+}
+.big:hover {
+  padding: 14px 38px 14px 50px;
+}
+.dropdown-toggle::after {
+  margin: 0 6px;
+}
+.dropdown {
+  position: unset;
+}
+.dropdown-menu {
+  width: 100%;
+}
+.dropdown-menu a {
+  display: block;
+  margin: 0 20px;
+  cursor: pointer;
+}
+nav {
+  border-bottom: solid #f8e9de 1px;
+}
+nav .container {
+  max-width: 100% !important;
+}
+.landing {
+  height: calc(100vw * 0.5625);
+  max-height: 679px;
+  background-size: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 10px 30px 10px 10px;
+}
+.landing .sec2 {
+  min-width: 50%;
+}
+
+.landing .sec2 img {
+  height: auto;
+  width: 100%;
+  max-width: 576px;
+  border-radius: 0;
+  box-shadow: none;
+  border-radius: 30%;
+}
+.blue {
+  color: #3b6dca;
+}
+.btn-blue {
+  color: #ffffff;
+  background-color: #3b6dca;
+}
+.btn-color {
+  border-radius: 30px;
+  padding: 7px 10px 6px;
+  margin: 10px;
+  margin-top: 74px;
+  display: block;
+  width: fit-content;
+}
+.btn-green {
+  color: #42df31;
+  background-color: #e3fae1;
+}
+.text {
+  font-size: 40px;
+  font-weight: 700;
+}
+.big {
+  padding: 14px 38px 14px 50px;
+}
+section.d-flex > * {
+  flex: 1;
+}
+section.d-flex .sec1 {
+  position: relative;
+  aspect-ratio: 1/1;
+  text-align: center;
+  max-height: 835px;
+}
+section.d-flex .sec1 img {
+  position: absolute;
+  max-width: 80%;
+  border-radius: 16px;
+  top: 109%;
+  right: 100%;
+  transform: translate(100%, -125%);
+  margin-top: -60px;
+}
+section.d-flex .sec1 [src="./assets/img/Pet-care-2x-03-min.png"] {
+  width: 50%;
+  transform: translate(100%, -140%);
+}
+
+section.d-flex .sec1 [src="./assets/img/lines.svg"] {
+  width: 20%;
+  transform: translate(100%, -600%) rotatez(180deg) rotatex(180deg);
+}
+section.d-flex .sec2 {
+  padding-right: 44px;
+  padding-left: 20px;
+}
+
+.icocon2,
+.icocon1 {
+  display: flex;
+}
+.icocon2 .ico,
+.icocon1 .ico {
+  display: flex;
+  align-items: flex-end;
+  border-radius: 50%;
+  width: 69.7px;
+  height: 65.7px;
+}
+
+.icocon2 .txtcon h2 {
+  font-size: 20px;
+}
+.icocon1 .txtcon h2 {
+  font-size: 20px;
+}
+.bg-purple {
+  background-color: #703edb;
+  padding: 50px 50px 55px;
+  margin-top: 100px;
+}
+.small-sec {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.safe-btn {
+  border-radius: 50px;
+  padding: 14px 44px;
+  color: #703edb;
+}
+.text-con {
+  color: #fff;
+}
+.text-con p {
+  color: #fff;
+}
+.text-con h1 {
+  font-size: 40px;
+}
+.rotate {
+  transform: rotatey(180deg);
+}
+.btn-purp {
+  background-color: #eee6ff;
+  color: #703edb;
+}
+
+.final {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.card {
+  max-width: 300px;
+  border-radius: 0.5rem;
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  border-radius: 20px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.content {
+  padding: 1.1rem;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+  border-radius: 7px;
+}
+
+.title {
+  color: #111827;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.action {
+  display: inline-flex;
+  margin-top: 1rem;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  align-items: center;
+  gap: 0.25rem;
+  background-color: #6f42c1;
+  padding: 10px 8px;
+  border-radius: 4px;
+}
+
+.action span {
+  transition: 0.3s ease;
+}
+
+.action:hover span {
+  transform: translateX(4px);
+}
+
+@media (max-width: 768px) {
+  .landing .sec2 {
+    display: none;
+  }
+}
+@media (max-width: 992px), (min-width: 688px) {
+  section.d-flex .sec1 img {
+    right: 50%;
+    transform: translate(50%, -125%);
+  }
+  section.d-flex .sec1 img:not([src="./assets/img/Pet-care-2x-02-min.jpeg"]) {
+    right: 50%;
+    transform: translate(0, -125%);
+  }
+}
+@media (max-width: 688px) {
+  section.d-flex .sec1 img {
+    max-width: 100%;
+    top: 162%;
+  }
+  .final {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section.d-flex .sec2 {
+    padding-top: 150px;
+  }
+}
+@media (max-width: 992px) {
+  section.d-flex {
+    flex-direction: column;
+    margin-top: -154px;
+  }
+  section.d-flex .sec1 {
+    margin-top: 100px;
+  }
+  .icocon1,
+  .icocon2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  .btn.small {
+    display: none;
+  }
+  .collapse {
+    position: absolute;
+    top: 100%;
+    background: #fff;
+    width: 100%;
+    right: 0;
+    padding-right: 73px;
+    padding-bottom: 10px;
+  }
+
+  .small-sec {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+svg[fill="#6ED85F"] {
+  background-color: #c5f9cf;
+  border-radius: 50%;
+}
+.selector {
+  display: flex;
+  text-align: center;
+}
+.selector > h3 {
+  flex: 1;
+  cursor: pointer;
+  border-bottom: solid 2px transparent;
+  padding: 18px 0;
+  margin: 0;
+}
+.selector > h3.selected {
+  border-bottom: solid 2px black;
+}
+.sections > section:not(.selected) {
+  display: none;
+}
