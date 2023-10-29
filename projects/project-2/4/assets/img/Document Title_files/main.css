@@ -1,0 +1,173 @@
+p {
+  color: #aaa;
+}
+.navbar-brand img {
+  max-height: 42px;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+}
+.collapse {
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  .collapse {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: start;
+  }
+}
+.big {
+  padding: 14px 50px;
+}
+.dropdown-toggle::after {
+  margin: 0 6px;
+}
+.dropdown {
+  position: unset;
+}
+.dropdown-menu {
+  width: 100%;
+}
+nav {
+  border-bottom: solid #f8e9de 1px !important;
+  position: sticky !important;
+  top: 0 !important;
+  background-color: #fff !important;
+  z-index: 1000 !important;
+  transition: 1s;
+}
+nav .container {
+  max-width: 100% !important;
+}
+.smallcon {
+  display: flex;
+}
+.smallcon > span {
+  margin: 0 10px;
+}
+.smallcon span h5 {
+  text-align: right;
+  font-weight: 800;
+  color: #b8815e !important;
+}
+.section-con {
+  background: linear-gradient(to bottom, #fd7e14 0%, #fd7e14 45%, #400d92 50%);
+  padding: 80px 30px;
+  color: #fff;
+}
+.section1 {
+  color: #fff;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+.section1 .start span {
+  align-items: center;
+}
+.section1 .start span div {
+  width: 57px;
+  height: 0;
+  border: solid 1.3px #ffffff;
+  margin: 5px 0 0 0;
+}
+.section1 .start h1 {
+  margin-top: 10px;
+}
+.section1 .start {
+  max-width: 333px;
+}
+.section1 .end {
+  max-width: 401px;
+}
+section .images {
+  display: flex;
+  gap: 10px;
+}
+section .images div {
+  position: relative;
+}
+section .images div img {
+  width: 100% !important;
+}
+section .images div div.txt {
+  transition: 0.5s;
+  text-align: center;
+  background-color: #fff;
+  padding: 22px 0px 10px;
+  position: absolute;
+  width: 95%;
+  bottom: 10px;
+  left: 50%;
+  transform-origin: right center;
+  transform: translateX(-50%) scaleX(0);
+}
+section .images div div.txt p {
+  opacity: 0;
+  transition-delay: 0.3s;
+  transition-duration: 0.5s;
+  transform: translatey(50px);
+}
+section .images div:hover div.txt p {
+  opacity: 1;
+  transform: translatey(0px);
+}
+section .images div:hover div.txt {
+  transform: translateX(-50%) scaleX(1);
+}
+section .images > div.big-image {
+  width: calc(((100% - 10px) / 3) * 2);
+}
+section .images > div.small-image {
+  width: calc((100% - 10px) / 3);
+}
+section .images > div .big-txt {
+  color: #000;
+}
+section.section2.d-flex > * {
+  flex: 1;
+}
+button.btn.btn-danger.big.mt-4 {
+  padding: 14px 30px;
+}
+.icons-sec {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.icons-sec .ico-con {
+  width: 45%;
+}
+.section3 {
+  justify-content: space-around;
+}
+.section3 .header-sec {
+  max-width: 500px;
+}
+.section3 .header-sec span {
+  color: #d90224;
+  text-decoration: underline;
+}
+.section3 .paragraph-sec {
+  max-width: 600px;
+}
+@media (max-width: 768px) {
+  .section1,
+  .section3 {
+    padding: 20px;
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+  .section1 {
+    flex-direction: column;
+  }
+  .section1 > * {
+    max-width: 100% !important;
+  }
+  section .images {
+    flex-direction: column;
+  }
+  section .images > div {
+    width: 95% !important;
+    margin: auto;
+  }
+}
