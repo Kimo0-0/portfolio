@@ -1,0 +1,116 @@
+.none {
+  display: none !important;
+}
+html {
+  min-height: 100vh;
+}
+body {
+  margin: 0;
+  background-color: #161a3d;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  margin: 50px auto auto auto;
+  border: solid #fff;
+  border-radius: 20px;
+  padding: 10px 55px;
+}
+.score {
+  text-align: center;
+  background-color: #fff;
+  padding: 10px 30px;
+  border-radius: 16px;
+}
+.score > * {
+  margin: 0;
+}
+header h1 {
+  font-size: 60px;
+  color: #59566a;
+}
+header h6 {
+  font-size: 16px;
+  color: #5f668b;
+}
+.site {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 475px;
+  margin: 65px auto;
+  background-image: url(../images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80% 80%;
+}
+.comparison .you .action,
+.comparison .computer .action {
+  border-color: transparent;
+  background-color: #17223e;
+}
+.site .action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border: solid 20px;
+  border-radius: 50%;
+  box-shadow: inset 2px -1px 20px 0px #000;
+  cursor: pointer;
+}
+.site .action img{
+  width: 50%;
+}
+.site .action.rock {
+  border-color: #df405e;
+  background-color: #fff;
+}
+.site .action.paper {
+  border-color: #5371f3;
+  background-color: #fff;
+}
+.site .action.scissors {
+  border-color: #eba824;
+  background-color: #fff;
+}
+.comparison {
+  background: none;
+  justify-content: space-between;
+}
+.comparison .you,
+.comparison .computer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.result {
+  color: #f00;
+  text-align: center;
+  width: 100px;
+  margin: 50px auto auto auto;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+}
+@media (max-width: 370px) {
+  header {
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .site .action {
+    width: 26vw;
+    height: 26vw;
+    border: solid 4vw;
+  }
+}
